@@ -16,7 +16,7 @@ In this notebook, we:
 
 ---
 
-## 🧩 Technologies Used
+## 🧩 Technologies Used.
 
 - **Python 3**
 - **Matplotlib** — for plotting curves
@@ -53,12 +53,12 @@ Both curves are visualized using Matplotlib for comparison and cluster analysis.
 
 ## 📊 Example Outputs
 
-Elbow Curve: Shows the reduction in inertia with increasing k.
-![Elbow Curve](elbow_curve.png)
+Elbow Curve: Shows the reduction in inertia with increasing k.<br>
+<img src="https://raw.githubusercontent.com/mahambilalandahaan/week8/main/elbow_curve.png" width="600">
 
-Silhouette Curve: Indicates how well-defined the clusters are for each k.
+Silhouette Curve: Indicates how well-defined the clusters are for each k.<br>
+<img src="https://raw.githubusercontent.com/mahambilalandahaan/week8/main/silhouette_curve.png" width="600">
 
-![Silhouette Curve](silhouette_curve.png)
 
 
 ### 🚀 How to Run
