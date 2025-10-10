@@ -39,28 +39,32 @@ A synthetic dataset of 300 samples and 4 centers is created using:
 ```python
 from sklearn.datasets import make_blobs
 x, y = make_blobs(n_samples=300, centers=4, cluster_std=1.2, random_state=42)
-2. Elbow Method
+### 2. Elbow Method
 
 Iterates over k values (1–24) to record inertia and plot the Elbow Curve.
 
-3. Silhouette Method
+### 3. Silhouette Method
 
 Iterates over k values (2–24) to calculate silhouette scores and plot the Silhouette Curve.
 
-4. Visual Insights
+### 4. Visual Insights
 
 Both curves are visualized using Matplotlib for comparison and cluster analysis.
 
-📊 Example Outputs
+## 📊 Example Outputs
 
 Elbow Curve: Shows the reduction in inertia with increasing k.
+![Elbow Curve](elbow_curve.png)
 
 Silhouette Curve: Indicates how well-defined the clusters are for each k.
-🚀 How to Run
+
+![Silhouette Curve] (silhouette_curve.png)
+
+### 🚀 How to Run
 
 Clone this repository:
 
-git clone https://github.com/mahambilalaandahaan/week8.git
+git clone https://github.com/mahambilalandahaan/week8.git
 
 
 Open the notebook:
@@ -70,7 +74,7 @@ jupyter notebook kmeans_deepdive.ipynb
 
 Run all cells to visualize results.
 
-🧠 Insights
+** 🧠 Insights
 
 The Elbow Method helps estimate where adding more clusters yields diminishing returns.
 
