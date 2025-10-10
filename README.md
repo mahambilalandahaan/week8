@@ -54,11 +54,12 @@ Both curves are visualized using Matplotlib for comparison and cluster analysis.
 ## 📊 Example Outputs
 
 Elbow Curve: Shows the reduction in inertia with increasing k.
-![Elbow Curve](elbow_curve(1).png)
+![Elbow Curve](elbow_curve.png)
 
 Silhouette Curve: Indicates how well-defined the clusters are for each k.
 
-![Silhouette Curve](silhouette_curve(1).png)
+![Silhouette Curve](silhouette_curve.png)
+
 
 ### 🚀 How to Run
 
