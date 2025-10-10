@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24-orange?logo=scikitlearn&logoColor=white)
+
+
 # K-Means Deep Dive 🧠
 
 This project provides an in-depth exploration of the K-Means Clustering Algorithm using both the Elbow Method and the Silhouette Method to determine the optimal number of clusters.  
